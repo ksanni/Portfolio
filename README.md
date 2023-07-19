@@ -1,3 +1,3 @@
 # portfolio
-https://superlative-kheer-16b9bd.netlify.app/
 https://ksanni.github.io/portfolio/
+https://voluble-pithivier-24d1a8.netlify.app/
