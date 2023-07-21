@@ -1,8 +1,7 @@
 *{
     margin: 0;
     padding: 0;
-   
-    
+   text-decoration: none;
     
 }
 body{
@@ -25,7 +24,7 @@ body{
     justify-content: space-around;
     align-items: center;
     background-color:rgba(92, 87, 87,0.9);
-    height: 12vh;
+    height: 60px;
 }
 #nav_icon{
     position: relative;
@@ -71,7 +70,7 @@ body{
 }
 
  #main_content{
-    height: 611PX;
+    height: 711PX;
    display: flex;
    justify-content: space-between;
    align-items: center;
@@ -84,11 +83,17 @@ body{
     padding-left: 135px;
      font-size: 30px;
 }
+.header-text .hire{
+    position: absolute;
+    top: 16%;
+    color: #ffffff;
+    font-size: 20px;
+}
 .header-text h1{
     font-size: 80px;
     margin-top: 80px;
 }
-.header-text p span{
+.header-text h3 span{
     color: #ff004f;
     font-size:45px;
 }
@@ -99,7 +104,7 @@ body{
 .button{
     height: 3rem;
     width: 11rem;
-    font-size: 14px;
+    font-size: 15px;
     cursor: pointer;
     text-transform: uppercase;
     border: none;
@@ -107,6 +112,8 @@ body{
     background: linear-gradient(0deg,#8490ff 0%,#62bdfc 100%);
 }
 .button:hover{
+    background: #ff004f;
+    color: #000;
     transition: all .5s;
     box-shadow: 0px 30px 30px 0 rgba(42, 39, 39, 0.3);
 }
@@ -190,25 +197,28 @@ right: 10rem;
     margin-bottom: 27px;
 }
 .one{
-    width: 85%;
-}
-.two{
-    width:80%;
-}
-.three{
-    width: 95%;
-}
-.four{
-    width: 85%;
-}
-.five{
     width: 80%;
 }
+.two{
+    width:70%;
+}
+.three{
+    width: 60%;
+}
+.four{
+    width: 60%;
+}
+.five{
+    width: 75%;
+}
 .six{
-    width: 70%;
+    width: 80%;
 }
 .seven{
     width:60%;
+}
+.eight{
+    width: 50%;
 }
 .skill_label3{
     display: block;
@@ -330,20 +340,23 @@ right: 10rem;
 }
 
 #image_content{
-    margin-top: 3rem;
-    margin-left:5rem;
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 31px;
+    margin-bottom: 12px;
 }
 
-.work-list{
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    margin: 50px ;
-    grid-gap: 40px;
-}
+
 .work {
+    width: 276px;
+    height: 322px;
     border-radius: 10px;
     position: relative;
     overflow: hidden;
+    margin-top: 23px;
 }
 
 
@@ -353,9 +366,11 @@ right: 10rem;
     border-radius: 10px;
     display: block;
     transition: transform 0.5s;
+
 }
 .layer p{
    text-align: justify;
+   padding: 10px 24px;
 }
 .layer {
     width: 100%;
@@ -376,7 +391,8 @@ right: 10rem;
     color: #fff;
 }
 .layer h3 {
-    font-weight: 500;
+    font-size: 24px;
+    font-weight: 600;
     margin-bottom: 20px;
 }
 .layer a {
